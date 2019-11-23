@@ -55,7 +55,7 @@ form.form-delete {
 
   span, a {
     display: block;
-  };
+  }
 
   span {
     &.votes-count {
@@ -75,7 +75,7 @@ form.form-delete {
     }
 
     &.favorite {
-      &.favorite, &.favorited:hover {
+      &.favorited, &.favorited:hover {
         color: $warning;
       }
     }

@@ -9,8 +9,6 @@ use Illuminate\Auth\Access\HandlesAuthorization;
 class QuestionPolicy
 {
     use HandlesAuthorization;
-    
-
 
 
     /**
