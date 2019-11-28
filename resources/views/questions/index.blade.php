@@ -56,7 +56,7 @@
                               <a href="{{ $question->user->url }}">{{ $question->user->name }}</a>
                               <small class="text-muted">{{ $question->created_data }}</small>
                             </p>
-                            {{ str_limit($question->body, 250) }}
+                            <div class="exerpt">{{ $question->excerpt(350) }}</div>
                           </div>
                         </div>
                         <hr>
